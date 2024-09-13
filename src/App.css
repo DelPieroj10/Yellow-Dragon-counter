@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1b1b29;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Lato','Helvetic', Arial, sans-serif;
+}
+
+.yellowDragon-logo-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.yellowDragon-logo {
+  height: 200px;
+}
+
+.yellowDragon-name {
+  font-size: x-large;
+  font-weight: 600;
+  color: #DCAB36;
+  margin-left: -80px;
+  margin-top: 160px;
+}
+
+.principal-container {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
